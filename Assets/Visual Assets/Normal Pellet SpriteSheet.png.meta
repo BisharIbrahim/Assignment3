@@ -1,12 +1,39 @@
 fileFormatVersion: 2
 guid: bf0d00f9f987ee4448bf99da26f48d0e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3643339947967046255
+    second: Normal Pellet SpriteSheet_0
+  - first:
+      213: -5727466857324845257
+    second: Normal Pellet SpriteSheet_1
+  - first:
+      213: 2559813028060246996
+    second: Normal Pellet SpriteSheet_2
+  - first:
+      213: 1305753583590888619
+    second: Normal Pellet SpriteSheet_3
+  - first:
+      213: 4007853480051802266
+    second: Normal Pellet SpriteSheet_4
+  - first:
+      213: -4986760481184265501
+    second: Normal Pellet SpriteSheet_5
+  - first:
+      213: 3136658622138738294
+    second: Normal Pellet SpriteSheet_6
+  - first:
+      213: 6899399191941053503
+    second: Normal Pellet SpriteSheet_7
+  - first:
+      213: 5825168827165697492
+    second: Normal Pellet SpriteSheet_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +62,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +77,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -75,13 +102,214 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Normal Pellet SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 73
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62e092216ebf8230800000000000000
+      internalID: 3643339947967046255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal Pellet SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 73
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737645a1d33f380b0800000000000000
+      internalID: -5727466857324845257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal Pellet SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 53
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3b2f4f268468320800000000000000
+      internalID: 2559813028060246996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal Pellet SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 41
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4d02257f7fe1210800000000000000
+      internalID: 1305753583590888619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal Pellet SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 53
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a900d4e6181ce9730800000000000000
+      internalID: 4007853480051802266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal Pellet SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 40
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea4e0b63c77bcab0800000000000000
+      internalID: -4986760481184265501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal Pellet SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 40
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676ee3ae566a78b20800000000000000
+      internalID: 3136658622138738294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal Pellet SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 40
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c734fa2079fbf50800000000000000
+      internalID: 6899399191941053503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal Pellet SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 8
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5e3eb6f2827d050800000000000000
+      internalID: 5825168827165697492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9af4b5ab28544354b9226cd44ef59e6e
     internalID: 0
     vertices: []
     indices: 
