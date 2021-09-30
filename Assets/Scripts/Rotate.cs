@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
+    public Animator PacStudent;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,13 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.UpArrow)) 
+            PacStudent.SetTrigger("RotateUp");
+        if (Input.GetKeyDown(KeyCode.DownArrow)) 
+            PacStudent.SetTrigger("RotateDown");
+        if (Input.GetKeyDown(KeyCode.RightArrow)) 
+            PacStudent.SetTrigger("RotateRight");
+        if (Input.GetKeyDown(KeyCode.LeftArrow)) 
+            PacStudent.SetTrigger("RotateLeft");
     }
 }
