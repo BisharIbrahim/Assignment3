@@ -7,7 +7,10 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public void LoadLevel1(){
-        Debug.Log("Is this working?");
         SceneManager.LoadScene("Level1");
+    }
+    public void LoadMenu(){
+
+        SceneManager.LoadScene("StartScene");
     }
 }
