@@ -29,7 +29,6 @@ public class IntroMusic : MonoBehaviour
         yield return new WaitForSeconds(GetComponent<AudioSource>().clip.length);
         introFinished = true;
         
-        
     //     //GetComponent<AudioSource>().loop = true;
     }
     
